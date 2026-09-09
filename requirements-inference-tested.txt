@@ -1,0 +1,7 @@
+# Optional inference/preprocessing environment; select the correct PyTorch
+# distribution for your hardware. CPU aggregate reproduction does not need it.
+-r requirements-tested.txt
+torch==2.4.0
+transformers==4.44.0
+tokenizers==0.19.1
+huggingface-hub==0.24.5

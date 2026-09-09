@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If using this analysis companion, cite the associated BabyConceptLM manuscript and the relevant upstream datasets/tools."
+title: "BabyConceptLM paper analysis companion"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Xu
+    given-names: Yizhe
+  - family-names: Song
+    given-names: Ming
+  - family-names: He
+    given-names: Danni
+  - family-names: Liu
+    given-names: Jianghao
+  - family-names: Wang
+    given-names: Yitong
+  - family-names: Cai
+    given-names: Qing
+preferred-citation:
+  type: unpublished
+  title: "BabyConceptLM: Exploring Dynamic Concept Computation under Restricted Language Exposure"
+  year: 2026
+  authors:
+    - family-names: Xu
+      given-names: Yizhe
+    - family-names: Song
+      given-names: Ming
+    - family-names: He
+      given-names: Danni
+    - family-names: Liu
+      given-names: Jianghao
+    - family-names: Wang
+      given-names: Yitong
+    - family-names: Cai
+      given-names: Qing

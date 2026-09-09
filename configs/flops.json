@@ -1,0 +1,53 @@
+{
+  "english": {
+    "hidden_size": 768,
+    "intermediate_size": 3072,
+    "concept_size": 896,
+    "concept_intermediate_size": 3584,
+    "readout_intermediate_size": 3072,
+    "vocab_size": 16384,
+    "scan_size": 192,
+    "boundary_syntax_dim": 32,
+    "num_token_layers": 5,
+    "num_concept_layers": 8,
+    "num_readout_layers": 3,
+    "lm_concept_gate_hidden_size": 192,
+    "include_residual_gate": false,
+    "token_control_layers": 19,
+    "config_lm_concept_residual_gate": false
+  },
+  "multilingual": {
+    "hidden_size": 768,
+    "intermediate_size": 3072,
+    "concept_size": 896,
+    "concept_intermediate_size": 3584,
+    "readout_intermediate_size": 3072,
+    "vocab_size": 16384,
+    "scan_size": 192,
+    "boundary_syntax_dim": 32,
+    "num_token_layers": 5,
+    "num_concept_layers": 8,
+    "num_readout_layers": 3,
+    "lm_concept_gate_hidden_size": 192,
+    "include_residual_gate": false,
+    "token_control_layers": 19,
+    "config_lm_concept_residual_gate": false
+  },
+  "chinese": {
+    "hidden_size": 768,
+    "intermediate_size": 3072,
+    "concept_size": 896,
+    "concept_intermediate_size": 3584,
+    "readout_intermediate_size": 3072,
+    "vocab_size": 16384,
+    "scan_size": 192,
+    "boundary_syntax_dim": 32,
+    "num_token_layers": 2,
+    "num_concept_layers": 4,
+    "num_readout_layers": 2,
+    "lm_concept_gate_hidden_size": 192,
+    "include_residual_gate": true,
+    "token_control_layers": 10,
+    "config_lm_concept_residual_gate": true
+  }
+}

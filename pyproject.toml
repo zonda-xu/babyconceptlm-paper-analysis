@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "babyconceptlm-paper-analysis"
+version = "0.1.0"
+description = "Portable analysis companion for BabyConceptLM"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "matplotlib>=3.8,<4"]
+
+[project.optional-dependencies]
+inference = ["torch>=2.4,<3", "transformers==4.44.0", "tokenizers==0.19.1", "huggingface-hub>=0.24.5,<1"]
+
+[project.scripts]
+babyconceptlm-analysis = "babyconceptlm_analysis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

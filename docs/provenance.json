@@ -1,0 +1,149 @@
+{
+  "prepared_date": "2026-09-08",
+  "source_integrity": "SHA-256 records the local source snapshot, not an independent scientific validation.",
+  "privacy": "Whitelist export: aggregate rows only; removed checkpoint paths, decoded texts and participant-level scores.",
+  "source_files": [
+    {
+      "source": "camera-ready/analysis/matched_control_manifest.json",
+      "sha256": "5123e13c9776f92dddbf876470777453e971781238c0e8f024389afdaa9aaef7"
+    },
+    {
+      "source": "zondaxyz/babyconceptLM-English-matched@e82add172267f10e057e8cba609973a1e7491515/config.json",
+      "sha256": "272541cac803199dd5ee00d345601317053fee8ec9390a8c713f3c361412af24"
+    },
+    {
+      "source": "zondaxyz/babyconceptLM-Multilingual-matched@ea60a3df6a3487a3faef9366f8e4aee75e140a44/config.json",
+      "sha256": "8e03779d62cd3f9242aa1f56dc5a13c1b94e7608e7832542814d43b613e5c79c"
+    },
+    {
+      "source": "zondaxyz/babyconceptLM-baike102M_bpe40@05fda2ae86582ee41ae8a4179cba9978091f4180/config.json",
+      "sha256": "adf37ac16ebed2ac97be619dbbd4bfc6f1d53308bcbbef14d1ec299ce24dcf47"
+    },
+    {
+      "source": "revise0/analysis/padding_flops_full_dev.json",
+      "sha256": "947dd7f97a0ab06c4e0fb491ffe8ea7ab1202956d6ae56d8b780ae72b2847ce4"
+    },
+    {
+      "source": "paper/analysis/exposure_learning_curves/exposure_indexed_learning_curves.csv",
+      "sha256": "6999de52a35e3a107f17ed73075bb0c61c49f9bccd2b76e5bdb69bb2994f6320"
+    },
+    {
+      "source": "paper/analysis/exposure_learning_curves/exposure_indexed_learning_curves_summary.json",
+      "sha256": "244ae474961313b23f0c0d43537baa996d3692c046aedbb31c716bd4cb48e5de"
+    },
+    {
+      "source": "camera-ready/analysis/segmentation/babyconceptLM-en-DWA-242/summary.csv",
+      "sha256": "faaf5061bfffdf26bce9e2d867243f2dad6354863340a6cb092958507cce1fd4"
+    },
+    {
+      "source": "camera-ready/analysis/segmentation/babyconceptLM-en-DWA-242/segment_length_distribution.csv",
+      "sha256": "a98eb7d41872fed81dff5b25323bfea8d744a4318c52a56a6e58f7a586ba43bc"
+    },
+    {
+      "source": "camera-ready/analysis/segmentation/babyconceptLM-en-DWA-583/summary.csv",
+      "sha256": "e2a9b697e2a08ffe375b2f36f11a34094e946eb6fdbd9eb201adfe0d19df201a"
+    },
+    {
+      "source": "camera-ready/analysis/segmentation/babyconceptLM-en-DWA-583/segment_length_distribution.csv",
+      "sha256": "a05fb91c97b256d556605fc6612734ba74984f0b8866be9aae2fac2aba92ec60"
+    },
+    {
+      "source": "camera-ready/analysis/segmentation/babyconceptLM-en-noDWA-242/summary.csv",
+      "sha256": "e6a4cd73f4d7257c70ed6aafdc4f708950e7c3db893bf84bcae46d7193d90b4d"
+    },
+    {
+      "source": "camera-ready/analysis/segmentation/babyconceptLM-en-noDWA-242/segment_length_distribution.csv",
+      "sha256": "4322706cdf8f81bcd203ca6459c1aaebc2c93a4d621b5601391356f8ae08ca62"
+    },
+    {
+      "source": "camera-ready/analysis/segmentation/babyconceptLM-en-noDWA-583/summary.csv",
+      "sha256": "269b10a132b8642cc0b20d597a82f202f10847f4dba94045152e621fe4b35daf"
+    },
+    {
+      "source": "camera-ready/analysis/segmentation/babyconceptLM-en-noDWA-583/segment_length_distribution.csv",
+      "sha256": "4761f3efebee575330a3bf94886576cd686c49e7dd634dd8b30839fdb491bc3b"
+    },
+    {
+      "source": "camera-ready/analysis/fmri_layer_sweep/figure_data.csv",
+      "sha256": "318042b6d3c5c7d90c942dce27496768b8a2511740bcfe26c1fb3c1fa8d0ea84"
+    },
+    {
+      "source": "scripts/analyze_segmentation.py",
+      "sha256": "1d3ceff70c089a099ab0e2784b7eb88b821c92727b2e8c6469aa293c7ee363ef"
+    },
+    {
+      "source": "scripts/prepare_hippocorpus_strict_heldout.py",
+      "sha256": "e4fd66064fe18788e07ded4e2626fec17c767108330ab8535c20498bc296bbfd"
+    },
+    {
+      "source": "scripts/build_strict_exposure_curves.py",
+      "sha256": "4d6f5bc9c8d97ff752d0ddebf960d2d9872742a7c444a450cc604e69c7f23583"
+    },
+    {
+      "source": "scripts/test_analyze_segmentation.py",
+      "sha256": "968300b20ddc2535dc9c71efeb5a92147c9a60d22d3ae7fb5d6892e6f152baf2"
+    },
+    {
+      "source": "scripts/test_prepare_hippocorpus_strict_heldout.py",
+      "sha256": "0a28ae9e4f375e443c3fe66545940decbfd7bdf27895db5640d1f519e5fcadde"
+    },
+    {
+      "source": "multi1/concept_gpt_bert_zho/data.py",
+      "sha256": "fd517f0dc05baec379c1755e403f506548dc3baa4ef24435dfcd23f77ebf22f6"
+    },
+    {
+      "source": "revise0/analysis/padding_flops_full_dev.py",
+      "sha256": "8911d30af6c26a194bae3e05ef3f62200a23455a4c46a69fee92ee30cd4a0d86"
+    },
+    {
+      "source": "camera-ready/main.tex",
+      "sha256": "2505d40af2bf35489c2dc19c78621b2698821220c2e268d94ef1597103c580ff"
+    },
+    {
+      "source": "camera-ready/main.pdf",
+      "sha256": "7dd6c981ba73f5993bf88d5b3d79c4166c307090aab4f62ff559722497332a2f"
+    }
+  ],
+  "reference_files": [
+    {
+      "file": "configs/evaluation_revisions.json",
+      "sha256": "b3a1b0479f06db822e4a3b97c80461d2e7ed294bc18f22aeb413c35a5fe83e22"
+    },
+    {
+      "file": "configs/flops.json",
+      "sha256": "0e48b9e3dbffeb68bc59dd632441e101cedb150423d82ddae27c619301ba6cb7"
+    },
+    {
+      "file": "configs/models.json",
+      "sha256": "4c937762de7497bc668540629be17f5684b6722a57b79c0e913cfcecbf070df5"
+    },
+    {
+      "file": "examples/fmri_synthetic.csv",
+      "sha256": "5eb0afd3583af41520e18bcaa83370b4251dc386b8106f02ff89d8986722e8db"
+    },
+    {
+      "file": "examples/reference/exposure_curves.csv",
+      "sha256": "bc4fdc9c947bce3d42262c3b96d9f4fa14d0b36eb75b2856a9b0e837cfaa5ad5"
+    },
+    {
+      "file": "examples/reference/exposure_summary.json",
+      "sha256": "244ae474961313b23f0c0d43537baa996d3692c046aedbb31c716bd4cb48e5de"
+    },
+    {
+      "file": "examples/reference/fmri_layer_sweep_aggregates.csv",
+      "sha256": "fcb44382adf1f41cc186863f2755a173cb207ff70a2110d195537fabc072e857"
+    },
+    {
+      "file": "examples/reference/full_dev_flops.json",
+      "sha256": "7364d6df0986819814a881083406454aa90aa9911486eb8afc80062c20279e35"
+    },
+    {
+      "file": "examples/reference/segmentation_lengths.csv",
+      "sha256": "d7a9a4e9dc4b16415c94af98c8bc501c849520a61a909cfc9965427f11e8e1a6"
+    },
+    {
+      "file": "examples/reference/segmentation_summary.csv",
+      "sha256": "f5ba3583a64b47509f58e2b27cd92b8536e4a968c7d1dc71469a40008f3ac906"
+    }
+  ]
+}

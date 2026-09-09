@@ -1,0 +1,222 @@
+{
+  "scope": "Archived full-dev aggregate moments and point estimates; see reproducibility notes for interval provenance.",
+  "pairs": [
+    {
+      "pair": "english",
+      "checkpoint_weight_sha256": "55ba4c4cb71dfa102ce283ee67f8ab5d9cd6abb7eeb5e038a38266dff6836ba8",
+      "sequence_length": 256,
+      "dev_documents": 50000,
+      "dev_real_tokens": 687824,
+      "dev_sequences": 2687,
+      "language_sequence_counts": null,
+      "inference_batch_size": 256,
+      "random_group_batch_size": 16,
+      "random_group_permutations": 200,
+      "random_seed": 20260721,
+      "concept_count": {
+        "mean": 56.3948641607741,
+        "std": 4.441312901042439,
+        "p2.5": 48.0,
+        "p5": 49.0,
+        "p25": 53.0,
+        "p50": 56.0,
+        "p75": 59.0,
+        "p95": 64.0,
+        "p97.5": 65.0,
+        "min": 40,
+        "max": 71
+      },
+      "allocated_tokens_per_concept": 4.539420456270252,
+      "batch_max_concept_count": {
+        "mean": 64.31553571428572,
+        "std": 2.531040020806957,
+        "p2.5": 60.0,
+        "p5": 61.0,
+        "p25": 62.0,
+        "p50": 64.0,
+        "p75": 66.0,
+        "p95": 69.0,
+        "p97.5": 70.0,
+        "repeat_mean_95_interval": [
+          64.14866071428571,
+          64.46443452380952
+        ]
+      },
+      "forward_gflops_per_sequence": {
+        "token_control": 102.072582144,
+        "concept_ideal_at_mean_count": 72.14167145153367,
+        "concept_padded_mean": 75.59144919186285,
+        "concept_padded_quantiles": {
+          "p2.5": 73.7107968,
+          "p5": 74.146308096,
+          "p25": 74.58193408,
+          "p50": 75.453530112,
+          "p75": 76.325584896,
+          "p95": 77.634527232,
+          "p97.5": 78.07107072
+        }
+      },
+      "padded_savings_percent": {
+        "mean": 25.943433972091153,
+        "std": 1.0811389360050014,
+        "p2.5": 23.514161119329387,
+        "p5": 23.94184059880424,
+        "p25": 25.224204881656803,
+        "p50": 26.078552607248522,
+        "p75": 26.932450895792243,
+        "p95": 27.359231501171106,
+        "p97.5": 27.785899747287967,
+        "repeat_mean_95_interval": [
+          25.880198383254672,
+          26.015064097470432
+        ]
+      }
+    },
+    {
+      "pair": "multilingual",
+      "checkpoint_weight_sha256": "82181ab8371a4582f0e8d51d9acd54a6145499ff056f0fbf91d78a28bf65a44f",
+      "sequence_length": 256,
+      "dev_documents": 6000,
+      "dev_real_tokens": 40013229,
+      "dev_sequences": 156303,
+      "language_sequence_counts": {
+        "eng": 71635,
+        "nld": 80511,
+        "zho": 4157
+      },
+      "inference_batch_size": 256,
+      "random_group_batch_size": 16,
+      "random_group_permutations": 200,
+      "random_seed": 20260721,
+      "concept_count": {
+        "mean": 32.06663339795141,
+        "std": 0.35238666026695287,
+        "p2.5": 32.0,
+        "p5": 32.0,
+        "p25": 32.0,
+        "p50": 32.0,
+        "p75": 32.0,
+        "p95": 32.0,
+        "p97.5": 34.0,
+        "min": 16,
+        "max": 36
+      },
+      "allocated_tokens_per_concept": 7.983376266008475,
+      "batch_max_concept_count": {
+        "mean": 32.8369689835193,
+        "std": 0.9452594989949201,
+        "p2.5": 32.0,
+        "p5": 32.0,
+        "p25": 32.0,
+        "p50": 32.0,
+        "p75": 34.0,
+        "p95": 34.0,
+        "p97.5": 34.0,
+        "repeat_mean_95_interval": [
+          32.82874142696284,
+          32.84553690244651
+        ]
+      },
+      "forward_gflops_per_sequence": {
+        "token_control": 102.072582144,
+        "concept_ideal_at_mean_count": 61.591845893649015,
+        "concept_padded_mean": 61.924908971388184,
+        "concept_padded_quantiles": {
+          "p2.5": 61.56304384,
+          "p5": 61.56304384,
+          "p25": 61.56304384,
+          "p50": 61.56304384,
+          "p75": 62.427758592,
+          "p95": 62.427758592,
+          "p97.5": 62.427758592
+        }
+      },
+      "padded_savings_percent": {
+        "mean": 39.33247531249191,
+        "std": 0.4003924512506914,
+        "p2.5": 38.83983604536489,
+        "p5": 38.83983604536489,
+        "p25": 38.83983604536489,
+        "p50": 39.68699277818869,
+        "p75": 39.68699277818869,
+        "p95": 39.68699277818869,
+        "p97.5": 39.68699277818869,
+        "repeat_mean_95_interval": [
+          39.328896477559056,
+          39.33601037028847
+        ]
+      }
+    },
+    {
+      "pair": "chinese",
+      "checkpoint_weight_sha256": "6345b814d5d2bf07626840d8d72e765ba1871b0b3c8fae2d95dd99484adc125b",
+      "sequence_length": 256,
+      "dev_documents": 124164,
+      "dev_real_tokens": 23016549,
+      "dev_sequences": 89909,
+      "language_sequence_counts": null,
+      "inference_batch_size": 256,
+      "random_group_batch_size": 32,
+      "random_group_permutations": 200,
+      "random_seed": 20260721,
+      "concept_count": {
+        "mean": 86.88287045790744,
+        "std": 33.9233952063053,
+        "p2.5": 41.0,
+        "p5": 44.0,
+        "p25": 54.0,
+        "p50": 82.0,
+        "p75": 120.0,
+        "p95": 138.0,
+        "p97.5": 143.0,
+        "min": 14,
+        "max": 169
+      },
+      "allocated_tokens_per_concept": 2.946495651568344,
+      "batch_max_concept_count": {
+        "mean": 143.63928469750888,
+        "std": 6.1673542301821405,
+        "p2.5": 132.0,
+        "p5": 134.0,
+        "p25": 140.0,
+        "p50": 143.0,
+        "p75": 148.0,
+        "p95": 154.0,
+        "p97.5": 156.0,
+        "repeat_mean_95_interval": [
+          143.52266014234874,
+          143.7338256227758
+        ]
+      },
+      "forward_gflops_per_sequence": {
+        "token_control": 56.774098944,
+        "concept_ideal_at_mean_count": 47.07170396501285,
+        "concept_padded_mean": 59.90668905513543,
+        "concept_padded_quantiles": {
+          "p2.5": 57.25863936,
+          "p5": 57.712918528,
+          "p25": 59.077132288,
+          "p50": 59.760013312,
+          "p75": 60.899295232,
+          "p95": 62.268325888,
+          "p97.5": 62.725128192
+        }
+      },
+      "padded_savings_percent": {
+        "mean": -5.517639503579455,
+        "std": 2.474433331062251,
+        "p2.5": -10.481943982712766,
+        "p5": -9.677347674719266,
+        "p25": -7.2659828420508275,
+        "p50": -5.25928975278886,
+        "p75": -4.056485944887707,
+        "p95": -1.6536054318114657,
+        "p97.5": -0.8534532912234043,
+        "repeat_mean_95_interval": [
+          -5.5536442113060005,
+          -5.468935271082373
+        ]
+      }
+    }
+  ]
+}

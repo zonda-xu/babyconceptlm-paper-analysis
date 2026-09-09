@@ -1,0 +1,47 @@
+{
+  "models": {
+    "english_concept": {
+      "hub_repository": "zondaxyz/babyconceptLM-English-matched",
+      "hub_commit": "e82add172267f10e057e8cba609973a1e7491515",
+      "weight_sha256": "55ba4c4cb71dfa102ce283ee67f8ab5d9cd6abb7eeb5e038a38266dff6836ba8",
+      "profile": "5/8/3",
+      "weight_filename": "pytorch_model.bin"
+    },
+    "english_token_control": {
+      "hub_repository": "zondaxyz/babyconceptLM-TA1-token-only-en",
+      "hub_commit": "49c3d3ac3f1d287df6789d7b58edb727bf5eaac2",
+      "weight_sha256": "4fdac3f1f3e4ccdb4c09bf5cc54a7f28cb283d39d390e1bb98cd8ddd74cf537c",
+      "profile": "19 token layers",
+      "weight_filename": "pytorch_model.bin"
+    },
+    "multilingual_concept": {
+      "hub_repository": "zondaxyz/babyconceptLM-Multilingual-matched",
+      "hub_commit": "ea60a3df6a3487a3faef9366f8e4aee75e140a44",
+      "weight_sha256": "82181ab8371a4582f0e8d51d9acd54a6145499ff056f0fbf91d78a28bf65a44f",
+      "profile": "5/8/3",
+      "weight_filename": "pytorch_model.bin"
+    },
+    "multilingual_token_control": {
+      "hub_repository": "zondaxyz/babyconceptLM-TA1-token-only-multi",
+      "hub_commit": "0e02966027413f3b8e56e8d1d1901e71f5c95793",
+      "weight_sha256": "49da0bb34d8531be588dbc7e19f6bb64f84bace747e7a3a486d4891452b1f169",
+      "profile": "19 token layers",
+      "weight_filename": "pytorch_model.bin"
+    },
+    "chinese_concept": {
+      "hub_repository": "zondaxyz/babyconceptLM-baike102M_bpe40",
+      "hub_commit": "05fda2ae86582ee41ae8a4179cba9978091f4180",
+      "weight_sha256": "6345b814d5d2bf07626840d8d72e765ba1871b0b3c8fae2d95dd99484adc125b",
+      "profile": "2/4/2",
+      "weight_filename": "pytorch_model.bin"
+    },
+    "chinese_token_control": {
+      "hub_repository": "zondaxyz/babyconceptLM-TA1-token-only-zh",
+      "hub_commit": "8bbf037e56a7a122f50cd36dce04640e0f853be4",
+      "weight_sha256": "512c6bbef0dce1d054cfb8c5d664246be8f0efb4a42cf4961760b95cb3d2ba84",
+      "profile": "10 token layers",
+      "weight_filename": "pytorch_model.bin"
+    }
+  },
+  "scope": "Frozen matched recipes, not interchangeable with public-final submissions."
+}
