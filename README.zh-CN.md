@@ -2,7 +2,7 @@
 
 [English README](README.md)
 
-本目录是可独立整理为 GitHub 仓库的论文分析代码包。它对应 `docs/provenance.json` 记录的论文快照；不修改原训练工程，也不自动上传。
+本目录是可独立整理为 GitHub 仓库的论文分析代码包。它对应 `docs/provenance.json` 
 
 ## 最快运行方式
 
