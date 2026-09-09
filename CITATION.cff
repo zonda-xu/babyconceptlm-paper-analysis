@@ -3,6 +3,7 @@ message: "If using this analysis companion, cite the associated BabyConceptLM ma
 title: "BabyConceptLM paper analysis companion"
 type: software
 version: 0.1.0
+license: MIT
 authors:
   - family-names: Xu
     given-names: Yizhe

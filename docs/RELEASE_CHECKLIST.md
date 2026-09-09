@@ -1,10 +1,11 @@
 # Release checklist
 
-This directory is prepared for a standalone repository. No Git repository, remote, commit, push, GitHub release, or public license has been created by the preparation step.
+This directory is prepared for a standalone repository. The initial packaging step did not initialize Git or publish the package. The local MIT update on 2026-09-09 adds licensing files and metadata without committing or pushing changes.
 
 ## Before publication
 
-- [ ] Confirm contributor rights and select an author-approved code license; add `LICENSE` and update `LICENSE_STATUS.md` and package metadata.
+- [x] Select MIT, add the full `LICENSE` with the maintainer-confirmed copyright holders, and update licensing documentation and package metadata.
+- [ ] Review any applicable institutional, contributor, and upstream obligations before public distribution.
 - [ ] Review third-party notices and permission to publish the included aggregate research results.
 - [ ] Confirm manuscript title/authors in `CITATION.cff`; add the real archival DOI and final repository URL only when available.
 - [ ] If promising fully automatic raw-input reproduction of all four public STRICT profiles, add verified public revisions/weight hashes for those profiles. The current pinned downloader covers the six matched artifacts only.

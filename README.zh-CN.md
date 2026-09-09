@@ -45,6 +45,12 @@ babyconceptlm-analysis reproduce --reference-dir examples/reference --output-dir
 - full-dev 重新分析的置换区间统一按每轮 `mean(F(C_B))` 计算；原脚本区间使用 `F(mean(C_B))`，差异已记入复现说明。保留的原论文点估计没有改动。
 - 不随包提供原始 fMRI、真实逐被试分数、Hippocorpus 故事、训练语料、模型权重、tokenizer、凭据或实验日志。运行时的明细输出也不应直接公开。
 
+## 许可证
+
+项目自有代码及随附文档采用 [MIT License](LICENSE)。版权权利人为 `camera-ready` 论文作者，按论文顺序为：Yizhe Xu、Ming Song、Danni He、Jianghao Liu、Yitong Wang、Qing Cai；版权年份为 2026。
+
+第三方组件、数据集和模型继续遵循各自的许可证及访问条件，本项目不会为它们重新授权。具体范围见 [LICENSE_STATUS.md](LICENSE_STATUS.md)，来源声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。科研使用时请通过 `CITATION.cff` 引用论文；这一引用请求不是 MIT 许可证的附加条件。
+
 ## 上传前
 
 ```bash
@@ -54,4 +60,4 @@ python scripts/check_release.py --zip dist/babyconceptlm-paper-analysis.zip
 
 只把这个独立目录或生成 ZIP 的内容作为新仓库，不要把整个训练工程上传。工具不会执行 GitHub 上传。
 
-**许可证尚待作者确认**，详见 [LICENSE_STATUS.md](LICENSE_STATUS.md)。完成许可证、第三方权利和数据授权复核后，再按 [发布清单](docs/RELEASE_CHECKLIST.md) 发布。目录结构可用于 GitHub，但目前不应宣称已完成开源授权。
+代码许可证已确认为 MIT。公开前仍应完成第三方权利和数据授权复核，并按 [发布清单](docs/RELEASE_CHECKLIST.md) 检查；添加 MIT 许可证不代表这些独立审核已经完成。

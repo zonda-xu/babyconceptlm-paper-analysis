@@ -32,4 +32,15 @@ python scripts/check_release.py
 
 No full-checkpoint GPU audit, model retraining, raw-BOLD encoding, dataset download, new matched ablation, latency benchmark or Hugging Face download was performed for this packaging task. Public model revisions/hashes are copied from the retained verified identity manifest rather than newly asserted from a mutable Hub listing.
 
-The original code license still needs author approval. Fully automated checkpoint-driven repetition of the four public STRICT segmentation profiles also needs their public weight/revision pins; the six matched-control identities are already pinned. Third-party and aggregate-data publication rights require maintainer review. These boundaries are also stated in the README and release checklist.
+At the initial 2026-09-08 packaging stage, the code license was undecided. The maintainer selected MIT on 2026-09-09 and confirmed the six camera-ready paper authors as copyright holders; the license and scope are now documented in `LICENSE` and `LICENSE_STATUS.md`. This licensing update does not change the earlier analysis results or imply a new full-experiment replication.
+
+Fully automated checkpoint-driven repetition of the four public STRICT segmentation profiles still needs their public weight/revision pins; the six matched-control identities are already pinned. Third-party and aggregate-data publication rights require maintainer review. These boundaries are also stated in the README and release checklist.
+
+## MIT update verification (2026-09-09)
+
+- Rechecked all six copyright holders against the camera-ready manuscript and the author order in `CITATION.cff`.
+- Verified SPDX `MIT` declarations in the package and citation metadata, the absence of unfilled license placeholders, and documentation links.
+- Reran the 10 base and 12 optional unit tests; all 22 passed. Reran the offline aggregate validation without redrawing figures; all 346 checks passed.
+- Verified that analysis code, model configurations, curated reference-file hashes, and the camera-ready manuscript source/PDF were unchanged.
+- Built a wheel from an extracted source archive using an isolated build environment with `setuptools>=77.0.3`. Verified `License-Expression: MIT` and byte-identical bundled copies of `LICENSE`, `LICENSE_STATUS.md`, and `THIRD_PARTY_NOTICES.md`. Build dependencies were fetched into the temporary build environment; the original scientific environment was not upgraded.
+- The source release scan and `git diff --check` passed. No commit or push was performed as part of this local licensing update.

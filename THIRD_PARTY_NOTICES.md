@@ -1,6 +1,6 @@
 # Sources and third-party notices
 
-The segmentation analyzer, Hippocorpus preparation script, learning-curve collector, dataset packing helpers and boundary-only inference path are adapted from the BabyConceptLM research workspace. Exact source snapshots are recorded by SHA-256 in [provenance.json](docs/provenance.json). Adaptation is not a claim that these components have a newly granted license; see [LICENSE_STATUS.md](LICENSE_STATUS.md).
+The segmentation analyzer, Hippocorpus preparation script, learning-curve collector, dataset packing helpers and boundary-only inference path are adapted from the BabyConceptLM research workspace. Exact source snapshots are recorded by SHA-256 in [provenance.json](docs/provenance.json). Project-owned code and accompanying documentation are distributed under the [MIT License](LICENSE). Any applicable upstream copyright and license notices remain in force; see [LICENSE_STATUS.md](LICENSE_STATUS.md) for scope.
 
 No external evaluation repository, pretrained model implementation, tokenizer asset or raw dataset is vendored. Optional checkpoint downloads can contain custom Python code and inherit the artifact's own notices; downloading does not execute that code.
 

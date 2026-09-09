@@ -4,7 +4,7 @@
 
 Portable analysis code for *BabyConceptLM: Exploring Dynamic Concept Computation under Restricted Language Exposure*. This prepared release corresponds to the manuscript snapshot recorded in [provenance.json](docs/provenance.json). It is an analysis companion, not a full training repository or a claim of independent replication.
 
-The default workflow runs offline on CPU. It verifies retained aggregate results and redraws figures without downloading checkpoints, corpora, or brain data. Optional scripts accept explicitly supplied inputs for new analyses. **An author-approved code license is pending**; see [LICENSE_STATUS.md](LICENSE_STATUS.md) before public release.
+The default workflow runs offline on CPU. It verifies retained aggregate results and redraws figures without downloading checkpoints, corpora, or brain data. Optional scripts accept explicitly supplied inputs for new analyses. Project-owned code and accompanying documentation are distributed under the [MIT License](LICENSE); see [licensing scope](LICENSE_STATUS.md) and [third-party notices](THIRD_PARTY_NOTICES.md).
 
 ## Quick start
 
@@ -115,6 +115,12 @@ docs/               Data requirements, provenance and release checklist
 
 See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for upstream dependencies and [CITATION.cff](CITATION.cff) for the manuscript citation. No DOI, publication venue, or final GitHub URL has been invented.
 
+## License
+
+Copyright (c) 2026 Yizhe Xu, Ming Song, Danni He, Jianghao Liu, Yitong Wang, and Qing Cai.
+
+Project-owned code and accompanying documentation are licensed under the [MIT License](LICENSE). Third-party components, datasets, and model artifacts retain their respective licenses and access conditions; this release does not relicense them. See [LICENSE_STATUS.md](LICENSE_STATUS.md) for scope and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for sources. Please cite the manuscript when using this work in research; the citation request does not add conditions to the MIT License.
+
 ## Prepare an upload
 
 ```bash
@@ -122,4 +128,4 @@ python scripts/check_release.py
 python scripts/check_release.py --zip dist/babyconceptlm-paper-analysis.zip
 ```
 
-The ZIP uses a file allowlist, excludes runtime outputs and weights, rejects personal paths/common token patterns, and verifies reference-data hashes. It will not overwrite an existing archive. It does not run Git, commit, push, or upload anything. Follow [the release checklist](docs/RELEASE_CHECKLIST.md), including the pending license decision, before publishing.
+The ZIP uses a file allowlist, excludes runtime outputs and weights, rejects personal paths/common token patterns, and verifies reference-data hashes. It will not overwrite an existing archive. It does not run Git, commit, push, or upload anything. Follow [the release checklist](docs/RELEASE_CHECKLIST.md), including third-party and data-permission review, before publishing.
